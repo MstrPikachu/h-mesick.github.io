@@ -101,15 +101,6 @@ hr {
     height: 0
 }
 
-pre {
-    overflow: auto
-}
-
-code, kbd, pre, samp {
-    font-family: monospace, monospace;
-    font-size: 1em
-}
-
 button, input, optgroup, select, textarea {
     color: inherit;
     font: inherit;
@@ -631,67 +622,8 @@ a:hover {
     margin-bottom: 1em
 }
 
-.main-content code {
-    padding: 2px 4px;
-    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    font-size: 0.9rem;
-    background-color: #f3f6fa;
-    border-radius: 0.3rem
-}
-
-.main-content pre {
-    padding: 0.8rem;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    word-wrap: normal;
-    background-color: #f3f6fa;
-    border: solid 1px #dce6f0;
-    border-radius: 0.3rem
-}
-
-.main-content pre > code {
-    padding: 0;
-    margin: 0;
-    font-size: 0.9rem;
-    word-break: normal;
-    white-space: pre;
-    background: transparent;
-    border: 0
-}
-
 .main-content .highlight {
     margin-bottom: 1rem
-}
-
-.main-content .highlight pre {
-    margin-bottom: 0;
-    word-break: normal
-}
-
-.main-content .highlight pre, .main-content pre {
-    padding: 0.8rem;
-    overflow: auto;
-    font-size: 0.9rem;
-    line-height: 1.45;
-    border-radius: 0.3rem;
-    -webkit-overflow-scrolling: touch
-}
-
-.main-content pre code, .main-content pre tt {
-    display: inline;
-    max-width: initial;
-    padding: 0;
-    margin: 0;
-    overflow: initial;
-    line-height: inherit;
-    word-wrap: normal;
-    background-color: transparent;
-    border: 0
-}
-
-.main-content pre code:before, .main-content pre code:after, .main-content pre tt:before, .main-content pre tt:after {
-    content: normal
 }
 
 .main-content ul, .main-content ol {
@@ -884,4 +816,12 @@ img {
         flex: 100%;
         max-width: 100%
     }
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
